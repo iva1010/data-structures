@@ -17,6 +17,11 @@ struct node *init(int f_data) {
     return (root);
 }
 
+struct node *add_node(struct node *root, int num) {
+    struct node *temp, *ptr;
+    temp = (struct node*)malloc(sizeof(struct node));
+
+}
 
 int main() {
 
