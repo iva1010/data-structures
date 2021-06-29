@@ -1,4 +1,3 @@
-#include <cstddef>
 #include <stdio.h>
 #include <malloc.h>
 
@@ -7,7 +6,6 @@ struct node {
     struct node *pnt_next;
     struct node *pnt_prev; 
 };
-
 
 //Node init
 struct node *init(int f_data) {
